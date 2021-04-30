@@ -26,7 +26,6 @@ def printslow(text):
         sleep(0.03)
         sys.stderr.write(char)
 
-printslow("Checking for AutoPy updates...")
         
 def checkupdate(currentVersion, domain, downloadFileName):
     tms = 0
