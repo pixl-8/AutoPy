@@ -45,6 +45,3 @@ def checkupdate(currentVersion, domain, downloadFileName):
         webbrowser.open(domain + "/" + downloadFileName)
         sleep(5) #this is the time to wait for the download
         open("C://Users/" + getpass.getuser() + "/Downloads/" + downloadFileName)
-
-
-checkupdate(cv, "https://autopyupdatenetwork.netlify.app", "") #AutoPy uses AutoPy to update AutoPy!
