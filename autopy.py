@@ -3,8 +3,7 @@
 
 
 #Code (c) Pixl8 2021
-
-
+cv = "1.0.0"
 
 
 from tkinter import *
@@ -48,4 +47,4 @@ def checkupdate(currentVersion, domain, downloadFileName):
         open("C://Users/" + getpass.getuser() + "/Downloads/" + downloadFileName)
 
 
-checkupdate("1.0.0", "https://autopyupdatenetwork.netlify.app", "download.txt") #AutoPy uses AutoPy to update AutoPy!
+checkupdate(cv, "https://autopyupdatenetwork.netlify.app", "") #AutoPy uses AutoPy to update AutoPy!
