@@ -13,7 +13,7 @@ from termcolor import colored # colours!
 import sys
 import webbrowser
 from time import sleep
-print("AutoPy v1.0.0 by Pixl8")
+print("AutoPy v1.0.1 by Pixl8")
 
 window = Tk()
 window.withdraw()
@@ -27,7 +27,7 @@ def printslow(text):
         sys.stderr.write(char)
 
         
-def checkupdate(currentVersion, domain, downloadFileName):
+def checkupdates(currentVersion, domain, downloadFileName):
     tms = 0
     print("\n Checking for updates...")
     updateRequest = urllib.request.urlopen(domain + "/v.txt")
